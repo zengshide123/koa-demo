@@ -1,0 +1,30 @@
+html,body{
+    margin:0;
+    background-color:lightblue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    color:#e7b794;
+}
+#btn{
+    margin-top:10px;
+    display:inline-block;
+    height:50px;
+    border:none;
+    outline:none;
+    width:150px;
+    text-align:center;
+    background-color:#3fb1ef;
+    color:#fff;
+    font-weight:bold;
+    line-height:50px;
+    font-size:20px;
+    border-radius:5px;
+    letter-spacing: 10px;
+}
+#btn:hover,#btn:active{
+    background-color:#3fb1ff;
+}
